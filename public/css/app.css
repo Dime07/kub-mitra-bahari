@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-color: #1B1824;
+    overflow-x: hidden;
+}
+
+
+.btn-primary-kub{
+    padding: 12px 32px !important;
+    border-radius: 12px;
+    background-color: #FFD055;
+    font-weight: 600;
+}
+
+.label{
+    color: #FFD055;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.title{
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.subtitle{
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.small-title{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.description{
+    color: #ADA7BE;
+    font-size: 18px;
+}
+
+@media (max-width: 576px) {
+    .title{
+        color: white;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    
+    .subtitle{
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    
+    .small-title{
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .label{
+        color: #FFD055;
+        font-weight: 600;
+        font-size: 16px;
+        
+    }
+    
+    .title{
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    
+    .subtitle{
+        color: white;
+        font-weight: 700;
+        font-size: 28px;
+    }
+    
+    .small-title{
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .description{
+        color: #ADA7BE;
+        font-size: 16px;
+    }
+}
+

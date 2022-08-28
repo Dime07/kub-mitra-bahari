@@ -1,0 +1,101 @@
+/* hero section */
+
+.hero-section{
+    height: 60vh;
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding: 0;
+}
+
+.hero-section .title{
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+    
+    .hero-section .title{
+        width: 80%;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section{
+        padding: 20px;
+    }
+    
+    .hero-section .title{
+        width: 80%;
+        font-size: 32px;
+    }
+}
+
+/* jasa section */
+
+.jasa-section .content{
+    padding: 180px 80px 120px 80px !important;
+}
+.jasa-section .content .image-wrap{
+    height: 510px;
+    width: 510px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+    .jasa-section .content{
+        padding: 20px !important;
+    }
+
+    .jasa-section .content .image-wrap{
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .jasa-section .content{
+        padding: 40px 20px !important;
+    }
+
+    .jasa-section .content .image-wrap{
+        height: 410px;
+        width: 100%;
+    }
+}
+
+
+
+.jasa-section .content .btn-social-wrap{
+    width: fit-content;
+}
+
+.jasa-section .content .btn-social-wrap .btn-social{
+    background-color: white;
+    border-radius: 12px;
+    padding: 8px 28px !important;
+    width: fit-content !important;
+    position: absolute;
+    right: 0;
+    top: 0; 
+    margin-right: -45% !important;
+    margin-top: 20px !important;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.jasa-section .content .btn-social-wrap .btn-social.show{
+    margin-right: -45% !important;
+    margin-top: -20px !important;
+    opacity: 1;
+}
+
+.jasa-section .content .btn-social-wrap .btn-social a{
+    text-decoration: none;
+}

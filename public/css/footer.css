@@ -1,0 +1,40 @@
+.footer{
+    padding: 40px 80px;
+    background-color: #16131e;
+}
+
+.footer .description{
+    width: 80%;
+}
+
+.footer .map-wrap{
+    height: 400px;
+}
+
+
+@media (max-width: 576px) {
+    .footer{
+        padding: 20px;
+        background-color: #16131e;
+    }
+
+    .footer .map-wrap{
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer{
+        padding: 40px;
+        background-color: #16131e;
+    }
+
+    .footer .map-wrap{
+        height: 300px;
+    }
+
+    .footer .description{
+        width: 100%;
+    }
+    
+}
