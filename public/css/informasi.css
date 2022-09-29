@@ -1,0 +1,132 @@
+/* hero section */
+
+.hero-section{
+    height: 60vh;
+    width: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    padding: 0;
+}
+
+.hero-section .title{
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+    
+    .hero-section .title{
+        width: 80%;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section{
+        padding: 20px;
+    }
+    
+    .hero-section .title{
+        width: 80%;
+        font-size: 32px;
+    }
+}
+
+
+/* poster section */
+.poster-section{
+    padding: 20px 80px ;
+}
+
+@media (max-width: 576px) {
+    .poster-section{
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .poster-section{
+        padding: 40px 10px;
+    }
+}
+
+
+/* informasi section */
+.informasi-section{
+    padding: 20px 80px ;
+}
+
+.informasi-section .card-information .btn-social-wrap{
+    width: fit-content;
+}
+
+.informasi-section .card-information .btn-social-wrap .btn-social{
+    background-color: white;
+    border-radius: 12px;
+    padding: 8px 28px !important;
+    width: fit-content !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: -45% !important;
+    margin-top: 20px !important;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.informasi-section .card-information .btn-social-wrap .btn-social.show{
+    margin-right: -45% !important;
+    margin-top: -20px !important;
+    opacity: 1;
+}
+
+.informasi-section .card-information .btn-social-wrap .btn-social a{
+    text-decoration: none;
+}
+
+.informasi-section .card-information .image-holder{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background-size: cover !important;
+    background-repeat: no-repeat I !important;
+    background-position: center !important;
+}
+
+.informasi-section .card-information .title-information{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.informasi-section .card-information .desc-information{
+    font-size: 18px;
+    color: #ADA7BE;
+}
+
+@media (max-width: 576px) {
+    .informasi-section{
+        padding: 20px 10px;
+    }
+
+    .informasi-section .card-information .title-information{
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .informasi-section{
+        padding: 40px 10px;
+    }
+
+    .informasi-section .card-information .title-information{
+        font-size: 20px;
+    }
+    
+    .informasi-section .card-information .desc-information{
+        font-size: 16px;
+    }
+}

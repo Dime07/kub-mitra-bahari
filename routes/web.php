@@ -19,10 +19,10 @@ use App\Http\Controllers\FeedController;
 Route::get('/', [FrontendController::class, 'index'])->name('beranda');
 Route::get('/jasa-kub', [FrontendController::class, 'jasa'])->name('jasa-kub');
 Route::get('/produk-kub', [FrontendController::class, 'produk'])->name('produk-kub');
+Route::get('/tentang-kub', [FrontendController::class, 'tentang'])->name('tentang-kub');
+Route::get('/informasi-kub', [FrontendController::class, 'informasi'])->name('informasi-kub');
+Route::get('/admin-panel', [FrontendController::class, 'admin'])->middleware(['auth'])->name('admin');
 
-Route::get('/admin-panel', function () {
-    return view('backend.dashboard');
-})->middleware(['auth'])->name('admin');
 
 // routes jasa
 Route::get('/admin-panel/jasa', [JasaController::class, 'index'])->name('jasa');

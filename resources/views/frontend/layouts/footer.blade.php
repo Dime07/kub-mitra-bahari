@@ -8,8 +8,22 @@
                 </p>
             </div>
             <p class="description mt-4">
-                Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska. Jinesade bel när feras redorade i belogi. FAR paratyp i muvåning, och pesask vyfisat. Viktiga poddradio har un mad och inde. 
+                KUB Mitra Bahari adalah Kelompok Usaha Bersama yang beranggotakan para nelayan. KUB Mitra Bahari memiliki fokus pada budidaya kerang hijau yang berlokasi di Tambak Lorok Tanjung Mas Semarang. 
             </p>
+            <div class="description mt-2" style="font-size: 13px;">
+                <p style="font-weight: 600">
+                    Penguatan Komoditi Unggulan Masyarakat (PKUM)
+                </p>
+                <p>
+                    Nomor : 226-17/UN7.6.1/PM/2022
+                </p>
+                <p style="font-weight: 600">
+                    Penguatan Komoditi Unggulan Masyarakat (PKUM)
+                </p>
+                <p>
+                    Sigit Febrianto S.Kel, M.Si , Dr. E Hersugondo, M.M, Oktavianto Eko Jati S.Pi, M.Si
+                </p>
+            </div>
         </div>
         <div class="col-lg-6 col-12">
             <div class="d-flex flex-column justify-content-lg-end justify-content-start">

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="{{ asset('assets/logo-kub.ico') }}">
 
     {{-- bootstrap css --}}
     <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
@@ -37,6 +38,15 @@
     <script src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.js') }}"></script>
     @yield('scripts')
+    <script>
+        $(".menu-mobile").hide();
+        
+        $(document).ready(function(){
+            $("#btn-menu").click(function(){
+                $(".menu-mobile").toggle();
+            });
+        });
+    </script>
 </body>
 </html>
 

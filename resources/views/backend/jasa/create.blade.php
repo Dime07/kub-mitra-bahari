@@ -9,9 +9,10 @@
                     <label for="judul">Judul</label>
                     <input type="text" class="form-control form-control-user" id="judul" name="judul" placeholder="Masukkan Judul">
                 </div>
-                <div class="col-sm-6 mb-2">
+                <div class="col-sm-6 mb-2 d-flex flex-column">
                     <label for="deksirpsi">deksirpsi</label>
-                    <input type="text" class="form-control form-control-user" id="deksirpsi" name="deskripsi" placeholder="Masukkan Deskripsi">
+                    <textarea name="deskripsi" id="deksirpsi" cols="30" rows="10" class="form-control form-control-user"></textarea>
+                    {{-- <input type="text" class="form-control form-control-user" id="deksirpsi" name="deskripsi" placeholder="Masukkan Deskripsi"> --}}
                 </div>
                 <div class="col-sm-6 mb-2">
                     <label for="no_whatsapp">No Whatsapp</label>

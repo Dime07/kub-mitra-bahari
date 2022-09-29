@@ -48,19 +48,19 @@
             </li>
             <li class="nav-item {{ (request()->is('admin-panel/jasa')) ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('jasa') }}">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-fw fa-users"></i>
                     <span>Jasa</span>
                 </a>
             </li>
             <li class="nav-item {{ (request()->is('admin-panel/produk')) ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('produk') }}">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-fw fa-shopping-bag"></i>
                     <span>Produk</span>
                 </a>
             </li>
             <li class="nav-item {{ (request()->is('admin-panel/feed')) ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route('feed') }}">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="fas fa-fw fa-th-large"></i>
                     <span>Feed</span>
                 </a>
             </li>

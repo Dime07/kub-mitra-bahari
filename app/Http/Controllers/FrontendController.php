@@ -27,4 +27,21 @@ class FrontendController extends Controller
         $produk = Produk::get();
         return view ('frontend.produk', compact('produk'));
     }
+
+    public function tentang(){
+
+        return view ('frontend.tentang');
+    }
+
+    public function informasi(){
+        $feed = Feed::get();
+        return view ('frontend.informasi', compact('feed'));
+    }
+    
+    public function admin(){
+        $feed = Feed::get();
+        $produk = Produk::get();
+        $jasa = Jasa::get();
+        return view('backend.dashboard', compact('feed', 'produk', 'jasa'));
+    }
 }

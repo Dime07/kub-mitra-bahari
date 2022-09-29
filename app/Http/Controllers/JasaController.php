@@ -32,11 +32,14 @@ class JasaController extends Controller
         $nama_file_gambar = time()."_".preg_replace('/\s+/', '',$file_gambar->getClientOriginalName());
         $tujuan_upload_formal = 'jasa';
         $file_gambar->move($tujuan_upload_formal,$nama_file_gambar);
+
+        $formated_phone = substr($request->no_whatsapp, 1);
+        $formated_phone = '62'.$formated_phone;
     
         Jasa::create([
             'judul' => $request->judul,
             'deskripsi' => $request->deskripsi,
-            'no_whatsapp' => $request->no_whatsapp,
+            'no_whatsapp' => $formated_phone,
             'gambar' => $nama_file_gambar,
         ]);
      

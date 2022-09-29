@@ -40,8 +40,8 @@
                                         Hubungi
                                     </button>
                                     <div class="btn-social">
-                                        <a href="#">
-                                            <img src="{{ asset('assets/whatsapp-icon.svg') }}" class="me-2" alt="whatsapp icon">
+                                        <a href="https://api.whatsapp.com/send/?phone={{$item->no_whatsapp}}">
+                                            <img src="{{ asset('assets/whatsapp-icon.svg') }}" alt="whatsapp icon">
                                         </a>
                                     </div>
                                 </div>
@@ -64,8 +64,8 @@
                                         Hubungi
                                     </button>
                                     <div class="btn-social">
-                                        <a href="#">
-                                            <img src="{{ asset('assets/whatsapp-icon.svg') }}" class="me-2" alt="whatsapp icon">
+                                        <a href="https://api.whatsapp.com/send/?phone={{$item->no_whatsapp}}">
+                                            <img src="{{ asset('assets/whatsapp-icon.svg') }}" alt="whatsapp icon">
                                         </a>
                                     </div>
                                 </div>

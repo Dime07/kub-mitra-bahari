@@ -51,10 +51,10 @@
                                     Sosial Media Kami
                                 </button>
                                 <div class="btn-social">
-                                    <a href="#">
+                                    <a href="https://api.whatsapp.com/send/?phone=6287723017324">
                                         <img src="{{ asset('assets/whatsapp-icon.svg') }}" class="me-2" alt="facebook icon">
                                     </a>
-                                    <a href="https://www.instagram.com/kub_mitrabahari/">
+                                    <a href="https://www.instagram.com/kub_mitrabahari/" target="_blank">
                                         <img src="{{ asset('assets/instagram-icon.svg') }}" class="ms-2" alt="facebook icon">
                                     </a>
                                 </div>

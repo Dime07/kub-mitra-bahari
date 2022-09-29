@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-sm-6 mb-2">
                     <label for="deskripsi">Deskripsi</label>
-                    <input type="text" class="form-control form-control-user" id="deskripsi" name="deskripsi" placeholder="Masukkan Deskripsi">
+                    <textarea name="deskripsi" id="deksirpsi" cols="30" rows="10" class="form-control form-control-user"></textarea>
                 </div>
                 <div class="col-sm-6 mb-2 d-flex flex-column">
                     <label for="gambar">Gambar</label>

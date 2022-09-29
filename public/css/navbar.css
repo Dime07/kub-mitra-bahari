@@ -36,3 +36,8 @@
     transform: translateX(-50%);
     background-color: white;
 }
+
+.menu-mobile{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease-in-out;
+}
